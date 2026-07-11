@@ -16,7 +16,7 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email",
-    value: "muhammadbilal363651@gmail.com",
+    value: "mbilalkhan.dev@gmail.com",
     href: "mailto:muhammadbilal363651@gmail.com",
   },
   {
@@ -42,7 +42,7 @@ const socials = [
   {
     icon: Github,
     label: "GitHub",
-    href: "#",
+    href: "https://github.com/mbilalkhandev",
   },
 ];
 
