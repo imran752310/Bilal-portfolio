@@ -5,7 +5,7 @@ import { motion, useInView } from "framer-motion";
 import { ExternalLink, Github, ArrowUpRight } from "lucide-react";
 import { projects } from "@/data/projects";
 
-const categories = ["All", ...new Set(projects.map((p) => p.category))];
+const categories = ["All", ...Array.from(new Set(projects.map((p) => p.category)))];
 
 export default function Projects() {
   const ref = useRef(null);
