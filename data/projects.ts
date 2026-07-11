@@ -12,32 +12,32 @@ export interface Project {
 }
 
 export const projects: Project[] = [
-  {
+   {
     id: 1,
-    title: "Business WordPress Website",
+    title: "Ticket Reservation System",
     description:
-      "Custom WordPress theme with responsive design, contact forms, and SEO optimization for a corporate client.",
+      "A real-time ticket booking platform with seat selection, payment integration, and event management features.",
     longDescription:
-      "A fully custom WordPress theme built from scratch for a business client. Features include responsive design across all breakpoints, integrated contact forms, SEO meta optimization, custom post types, and performance-tuned asset loading.",
-    tech: ["WordPress", "PHP", "HTML", "CSS", "Bootstrap"],
-    image: "/projects/project-1.jpg",
+      "A complete ticket reservation system enabling users to browse events, select seats, and book tickets seamlessly. Features include real-time seat availability, multiple payment gateway support, event creation and management for admins, booking confirmation with QR codes, and an intuitive admin dashboard for analytics and reporting.",
+    tech: ["PHP", "MySQL", "JavaScript", "Bootstrap", "HTML", "CSS"],
+    image: "/Ticket Reservation.png",
     liveUrl: "#",
     githubUrl: "#",
-    category: "WordPress",
+    category: "Web App",
     featured: true,
   },
   {
     id: 2,
-    title: "E-commerce Store",
+    title: "Learning Management System",
     description:
-      "Product catalog, cart, and checkout built on WordPress/WooCommerce with custom theming.",
+      "A full-featured LMS platform with course management, student enrollment, progress tracking, and interactive learning modules.",
     longDescription:
-      "A complete e-commerce solution built on WordPress with WooCommerce. Includes custom product pages, shopping cart functionality, secure checkout integration, inventory management, and a responsive storefront design.",
-    tech: ["WordPress", "WooCommerce", "PHP", "MySQL"],
-    image: "/projects/project-2.jpg",
+      "A comprehensive Learning Management System built to streamline online education. Features include course creation and management, student enrollment and authentication, progress tracking with analytics, quiz and assignment modules, certificate generation, and a responsive dashboard for both instructors and students.",
+    tech: ["PHP", "MySQL", "JavaScript", "Bootstrap", "HTML", "CSS"],
+    image: "/LMS.PNG",
     liveUrl: "#",
     githubUrl: "#",
-    category: "E-commerce",
+    category: "Web App",
     featured: true,
   },
   {
@@ -68,4 +68,5 @@ export const projects: Project[] = [
     category: "Tool",
     featured: false,
   },
+ 
 ];

@@ -76,20 +76,13 @@ export default function Projects() {
               layout
               className="glass-card-hover group overflow-hidden"
             >
-              {/* Image placeholder */}
+              {/* Image */}
               <div className="relative h-52 bg-gradient-to-br from-navy-700 to-navy-800 overflow-hidden">
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-center">
-                    <div className="w-16 h-16 mx-auto rounded-2xl bg-accent/10 border border-accent/20 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform duration-500">
-                      <span className="font-display font-bold text-accent text-xl">
-                        {project.title.charAt(0)}
-                      </span>
-                    </div>
-                    <p className="text-xs text-gray-500 font-mono">
-                      [ Replace with screenshot ]
-                    </p>
-                  </div>
-                </div>
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
                 {/* Hover overlay */}
                 <div className="absolute inset-0 bg-accent/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
               </div>
