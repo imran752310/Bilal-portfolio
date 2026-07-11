@@ -37,7 +37,7 @@ const socials = [
   {
     icon: Linkedin,
     label: "LinkedIn",
-    href: "#",
+    href: "https://www.linkedin.com/in/muhammad-bilal-211b36262/",
   },
   {
     icon: Github,
